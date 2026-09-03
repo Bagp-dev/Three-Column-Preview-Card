@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Gothic&display=swap');
+
+.principal {
+    display: flex;
+    flex-direction: row;
+}
+
+@media (max-width: 600px) {
+    .principal {
+        flex-direction: column;
+    }
+}
+
+img{
+    margin-top: 20px;
+    margin-left: 30px;
+    
+}
+h1 {
+     font-family:'League Gothic';
+     margin-left: 30px;
+     margin-top: 10px;
+}
+p{
+    margin: 30px;
+    text-align:justify;
+}
+.box1{
+    background-color: #FF6F20;
+    width: 236px;
+    height: 390px;
+    
+    
+}
+#laranja {
+    color: #FF6F20;
+    text-align: center;
+    padding-top: 10px;
+
+    
+    
+}
+#orange{
+    background-color: azure;
+    width: 135px;
+    margin: 30px;
+    height: 38px;
+    border-radius: 100px;
+ 
+}
+
+.box2{
+    background-color: #2277F2;
+    width: 236px;
+    height: 390px;
+    
+}
+#azul {
+    color: #2277F2;
+    text-align: center;
+    padding-top: 10px;
+}
+
+#blue{
+    background-color: azure;
+    width: 135px;
+    margin-left: 30px;
+    margin-top: 46px;
+    height: 38px;
+    border-radius: 100px;
+ 
+}
+
+.box3{
+    background-color: #E9222A;
+    width: 236px;
+    height: 390px;
+    
+}
+#vermelho {
+    color: #E9222A;
+    text-align: center;
+    padding-top: 10px;
+}
+
+#red{
+    background-color: azure;
+    width: 135px;
+    margin-left: 30px;
+    margin-top: 63px;
+    height: 38px;
+    border-radius: 100px;
+ 
+}
